@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BlueBankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlueBankApplication.class, args);  
+		SpringApplication.run(BlueBankApplication.class, args);    
 	}
 }
