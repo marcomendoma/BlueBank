@@ -22,7 +22,7 @@ public class contasController {
 	
 	@RequestMapping("/contas")
 	public ModelAndView listar() {
-		ModelAndView mv = new ModelAndView("ListaContas");
+		ModelAndView mv = new ModelAndView("contas");
 		mv.addObject("conta", new Conta());
 		mv.addObject("contas", repository.listAllcontas());
 		return mv;
